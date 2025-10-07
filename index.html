@@ -12,7 +12,7 @@
   <!-- Navigation -->
   <nav>
     <div class="nav-container">
-      <a href="/" class="logo">OOPI</a>
+      <a href="/" class="logo"><img src="/Assets/images/OOPI_m.png" alt="OOPI"></a>
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/features.html">Features</a></li>
@@ -24,26 +24,32 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero hero-with-bg">
     <div class="hero-content">
       <div class="hero-text">
         <h1>
-          Transform Your Photos Into <span class="neon-text">ART</span>
+          Transform Your Photos Into <span class="highlight">Art</span>
         </h1>
         <p>
           Oopi uses cutting-edge AI to transform your everyday photos into stunning artistic masterpieces. 
-          Choose from 100+ beautiful styles and watch your memories come to life in ways you never imagined.
+          Choose from 100+ beautiful styles instantly.
         </p>
-        <div class="btn-group">
-          <a href="#" class="btn btn-primary">Download on App Store</a>
-          <a href="#features" class="btn btn-secondary">Explore Features</a>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-primary">Download Now</a>
+          <div class="qr-section">
+            <div class="qr-code">
+              <img src="/Assets/images/qr-code.svg" alt="Download QR Code">
+            </div>
+            <div class="qr-text">
+              <span>Scan to download</span>
+              <span>iOS App</span>
+            </div>
+          </div>
         </div>
       </div>
       <div class="hero-image">
-        <div class="gallery-image-container" style="border-radius: 20px; overflow: hidden; border: 3px solid var(--neon-green); box-shadow: var(--glow-green);">
-          <img src="/Assets/images/ex_webp/5.webp" alt="Oopi App Example" class="gallery-after">
-          <img src="/Assets/images/ex_webp/1_or.webp" alt="Original Photo" class="gallery-before">
-          <span class="gallery-label" style="font-size: 1.1rem; padding: 0.75rem 1.5rem;">Try Hovering!</span>
+        <div class="phone-mockup">
+          <img src="/Assets/images/screens/main_screen.webp" alt="Oopi App Interface">
         </div>
       </div>
     </div>
@@ -52,111 +58,146 @@
   <!-- Features Section -->
   <section id="features">
     <div class="container">
-      <div class="section-title">
-        <h2>Powerful <span class="neon-text">Features</span></h2>
-        <p style="color: var(--text-secondary); font-size: 1.2rem;">Everything you need to create stunning photo art</p>
+      <div class="section-header">
+        <h2>Powerful <span class="highlight">Features</span></h2>
+        <p>Everything you need to create stunning photo art</p>
       </div>
       <div class="features-grid">
         <div class="feature-card">
-          <div class="feature-icon">🎨</div>
           <h3>100+ Art Styles</h3>
           <p>From classic paintings to modern digital art, explore a vast collection of artistic styles. Van Gogh, Picasso, anime, watercolor, and so much more.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon">⚡</div>
           <h3>Instant Transformation</h3>
           <p>Powered by advanced AI, your photos are transformed in seconds. No waiting, no hassle - just instant, beautiful results.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon">🎯</div>
           <h3>AI-Powered Precision</h3>
           <p>Our state-of-the-art AI understands your photos and applies styles with incredible detail and accuracy.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon">💾</div>
           <h3>High Resolution Output</h3>
           <p>Save your masterpieces in stunning high resolution, perfect for printing or sharing on social media.</p>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">🔄</div>
-          <h3>Unlimited Transforms</h3>
-          <p>Try as many styles as you want! Experiment freely and find the perfect artistic expression for each photo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Style Showcase Section -->
+  <section class="showcase-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>One Photo, <span class="highlight">Endless Possibilities</span></h2>
+        <p>See how the same photo transforms across different styles</p>
+      </div>
+      <div class="screens-showcase">
+        <div class="screen-item">
+          <img src="/Assets/images/screens/floral_screen.webp" alt="Floral Style">
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">✨</div>
-          <h3>Easy to Use</h3>
-          <p>Beautiful, intuitive interface designed for everyone. Simply pick a photo, choose a style, and let Oopi work its magic.</p>
+        <div class="screen-item">
+          <img src="/Assets/images/screens/glass_screen.webp" alt="Glass Style">
+        </div>
+        <div class="screen-item">
+          <img src="/Assets/images/screens/yearbook_screen.webp" alt="Yearbook Style">
         </div>
       </div>
     </div>
   </section>
 
   <!-- Gallery Preview Section -->
-  <section id="gallery-preview" style="background: var(--dark-bg);">
+  <section id="gallery-preview">
     <div class="container">
-      <div class="section-title">
-        <h2>See The <span class="neon-text">Magic</span></h2>
-        <p style="color: var(--text-secondary); font-size: 1.2rem;">Real transformations - hover to see originals</p>
+      <div class="section-header">
+        <h2>See The <span class="highlight">Magic</span></h2>
+        <p>Real transformations from our community</p>
       </div>
       <div class="gallery-grid">
         
-        <!-- Cyberpunk -->
         <div class="gallery-item">
-          <div class="gallery-image-container">
-            <img src="/Assets/images/ex_webp/5.webp" alt="Cyberpunk Style" class="gallery-after">
-            <img src="/Assets/images/ex_webp/1_or.webp" alt="Original" class="gallery-before">
-            <span class="style-name">Cyberpunk</span>
-            <span class="gallery-label">AFTER</span>
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/12.webp" alt="Tokyo Midday Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Tokyo Midday</h4>
+            <p>Vibrant street style</p>
           </div>
         </div>
 
-        <!-- B&W Glam -->
         <div class="gallery-item">
-          <div class="gallery-image-container">
-            <img src="/Assets/images/ex_webp/2.webp" alt="B&W Glam Style" class="gallery-after">
-            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="gallery-before">
-            <span class="style-name">B&W Glam</span>
-            <span class="gallery-label">AFTER</span>
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/13.webp" alt="Neon Dreams Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Neon Dreams</h4>
+            <p>Electric night vibes</p>
           </div>
         </div>
 
-        <!-- Tokyo Midday -->
         <div class="gallery-item">
-          <div class="gallery-image-container">
-            <img src="/Assets/images/ex_webp/12.webp" alt="Tokyo Midday Style" class="gallery-after">
-            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="gallery-before">
-            <span class="style-name">Tokyo Midday</span>
-            <span class="gallery-label">AFTER</span>
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/25.webp" alt="Artistic Portrait Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Artistic Portrait</h4>
+            <p>Modern art style</p>
           </div>
         </div>
 
-        <!-- Renaissance -->
         <div class="gallery-item">
-          <div class="gallery-image-container">
-            <img src="/Assets/images/ex_webp/43.webp" alt="Renaissance Style" class="gallery-after">
-            <img src="/Assets/images/ex_webp/1_or.webp" alt="Original" class="gallery-before">
-            <span class="style-name">Renaissance</span>
-            <span class="gallery-label">AFTER</span>
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/27.webp" alt="Vintage Film Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Vintage Film</h4>
+            <p>Classic cinema look</p>
           </div>
         </div>
 
-        <!-- Golden Hour -->
         <div class="gallery-item">
-          <div class="gallery-image-container">
-            <img src="/Assets/images/ex_webp/57.webp" alt="Golden Hour Style" class="gallery-after">
-            <img src="/Assets/images/ex_webp/1_or.webp" alt="Original" class="gallery-before">
-            <span class="style-name">Golden Hour</span>
-            <span class="gallery-label">AFTER</span>
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/36.webp" alt="Renaissance Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/36_or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Renaissance</h4>
+            <p>Classical masterpiece</p>
           </div>
         </div>
 
-        <!-- Roaring 20's -->
         <div class="gallery-item">
-          <div class="gallery-image-container">
-            <img src="/Assets/images/ex_webp/46.webp" alt="Roaring 20's Style" class="gallery-after">
-            <img src="/Assets/images/ex_webp/25_or.webp" alt="Original" class="gallery-before">
-            <span class="style-name">Roaring 20's</span>
-            <span class="gallery-label">AFTER</span>
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/1.webp" alt="Dreamy Portrait Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/1_or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Dreamy Portrait</h4>
+            <p>Soft artistic feel</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/5.webp" alt="Cyberpunk Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Cyberpunk</h4>
+            <p>Futuristic neon vibes</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image-wrapper">
+            <img src="/Assets/images/ex_webp/57.webp" alt="Golden Hour Style" class="gallery-image">
+            <img src="/Assets/images/ex_webp/or.webp" alt="Original" class="original-image">
+          </div>
+          <div class="gallery-info">
+            <h4>Golden Hour</h4>
+            <p>Warm sunset glow</p>
           </div>
         </div>
 
@@ -170,9 +211,9 @@
   <!-- How It Works Section -->
   <section id="how-it-works">
     <div class="container">
-      <div class="section-title">
-        <h2>How It <span class="neon-text">Works</span></h2>
-        <p style="color: var(--text-secondary); font-size: 1.2rem;">Three simple steps to artistic perfection</p>
+      <div class="section-header">
+        <h2>How It <span class="highlight">Works</span></h2>
+        <p>Three simple steps to artistic perfection</p>
       </div>
       <div class="steps">
         <div class="step">
@@ -198,10 +239,8 @@
   <section class="cta-section">
     <div class="container">
       <h2>Ready To Transform Your Photos?</h2>
-      <p style="color: var(--text-secondary); font-size: 1.3rem; margin: 2rem 0;">
-        Join thousands of users creating stunning art every day
-      </p>
-      <a href="#" class="btn btn-primary" style="font-size: 1.3rem; padding: 1.5rem 4rem;">
+      <p>Join thousands of users creating stunning art every day</p>
+      <a href="#" class="btn btn-primary">
         Download Oopi Now
       </a>
     </div>
