@@ -764,6 +764,10 @@ footer {
     margin: 1.5rem 1rem;
   }
 
+  section:first-of-type {
+    margin-top: 5.5rem;
+  }
+
   footer {
     margin: 1.5rem 1rem;
   }
@@ -773,7 +777,7 @@ footer {
   }
 
   .hero.hero-with-bg {
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
 
   .hero-content {
@@ -842,7 +846,16 @@ footer {
   }
 
   .hero.hero-with-bg {
-    margin-top: 4.5rem;
+    margin-top: 6rem;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%) !important;
+  }
+
+  .hero.hero-with-bg::before {
+    display: none;
+  }
+
+  section:first-of-type {
+    margin-top: 5.5rem;
   }
 
   .hero-text h1 {
