@@ -240,7 +240,7 @@ nav.scrolled {
 }
 
 .phone-mockup {
-  max-width: 400px;
+  max-width: 320px;
   width: 100%;
   filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.15));
   animation: float 6s ease-in-out infinite;
